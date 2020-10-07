@@ -1,0 +1,40 @@
+{
+    "name": "quidditch seeker V2",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.2.10",
+        "mouse": "*",
+        "keyboard": "*",
+        "animation": "*",
+        "controller": "*",
+        "palette": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "storyboard": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.1.3",
+        "servo": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.0.16",
+        "tag": "v1.0.16",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/3d3129177a6331fa694e0eb095a96de316256656",
+        "target": "1.2.6",
+        "pxt": "6.1.42",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
